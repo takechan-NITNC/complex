@@ -1,8 +1,8 @@
 #pragma once
 #include <分数.h>
 struct complex {
-    struct fraction re;
-    struct fraction im;
+	struct fraction re;
+	struct fraction im;
 };
 struct complex fraction_to_complex(struct fraction);
 struct complex int_to_complex(int);
